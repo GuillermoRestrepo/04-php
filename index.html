@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php</title>
+</head>
+<body>
+    <h1>INTRODUCCIÓN A PHP</h1>
+    <p>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de programación de código abierto, ampliamente utilizado especialmente para el desarrollo web del lado del servidor.</p>
+    Características principales de PHP:
+    <ul>
+        <li>Se ejecuta en el servidor web y genera contenido HTML dinámico que se envía al navegador.</li>
+        <li>PHP puede incrustarse directamente en el código HTML, lo que facilita la creación de páginas web interactivas.</li>
+        <li>PHP se integra fácilmente con sistemas de gestión de bases de datos como MySQL, PostgreSQL, SQLite, entre otros.</li>
+    </ul>
+    
+    <h2>Como Ejecutar Codigo PHP</h2>
+    <p>Para ejecutar código PHP es necesario preparar un entorno que incluya un servidor web y el intérprete de PHP.</p>
+
+    <p>Algunas opciones para descargar estos recursos son (XAMPP) (LARAGON), (MAMP), entre otros.</p>
+    
+    <p>Para el desarrollo de este curso utilizaré la herramienta (XAMPP), como instalador de los recursos que se necesitan para poder ejecutar código php.</p>
+
+    <p>Tutorial de instalación: <a target="_blank" href="https://youtu.be/IQ22Nme9t0M?si=1zHY6jPuO0TtWjHk">XAMPP</a></p>
+    
+    <p> XAMPP incluye el servidor web apache, una version actual del interprete de php, y el motor de base de datos MySQL. (También incluye otras cosas más, pero no serán necesarias de momento).</p>
+
+    <h2>Crear Un Proyecto PHP</h2>
+    <p>Una vez instalado (XAMPP), hay q seguir los siguientes pasos:</p>
+    <ol>
+        <li>Entrar a la carpeta (xampp) que se crea al instalar (XAMPP).</li>
+        <li>Entrar a la carpeta (htdocs).</li>
+        <li>Crear una carpeta con el nombre del proyecto.</li>
+        <li>Dentro de la carpeta con el nombre del proyecto, ya se podrán crear todo tipo de archivo que necesites para el proyecto.</li>
+    </ol>
+
+    <h2>NOTAS</h2>
+    <ul>
+        <li>
+            <p>No olvidarse inicializar el servidor para poder visualizar lo codigicado.</p>
+        </li>
+        <li>
+            <p>Indicar correctamente la ruta del archivo en el navegador, para poder acceder a este.</p>
+        </li>
+        <li>
+            <p>Para poder escribir codigo php, es necesario escribirlo dentro de las estiquetas (etiqueta de apertura:<code>&lt;?php</code>) y (etiqueta de cierre: <code>?&gt;</code>). Ejemplo:</p>
+            <pre><code>
+                &lt;?php
+                    echo "Este Es Código PHP.";
+                ?&gt;
+            </code></pre>
+        </li>
+        <li>Si es un archivo en el que solo se escribirá codigo php no hace falta poner la etiqueta de cierre, pero si se conbina con codigo html, si hace falta.</li>
+    </ul>
+</body>
+</html>

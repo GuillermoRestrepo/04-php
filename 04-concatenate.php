@@ -1,4 +1,9 @@
 <?php
+/* BARRA INVERTIDA (\) PARA USAR CARATERES ESPECIALES EN CADENAS */
+$mensaje= "Este es un \"mensaje\" de prueba, y este es un signo de dolar (\$Dollar)";
+echo $mensaje;
+
+
 ////  USAR COMA (,), NO CONCATENA  ////
 $nombre= "Guillermo";
 echo "Nombre: ", $nombre, ". <br>";
